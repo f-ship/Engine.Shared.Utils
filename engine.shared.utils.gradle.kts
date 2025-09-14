@@ -55,7 +55,7 @@ dependencies {
 }
 
 android {
-    namespace = "ship.f.engine.client.utils.serverdrivenui"
+    namespace = "ship.f.engine.shared.utils"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
